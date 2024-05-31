@@ -1,0 +1,135 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f9;
+    transition: background 0.3s ease;
+}
+
+header {
+    background: linear-gradient(to right, #333, #777);
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+header .header-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    transition: font-size 0.3s ease;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+    transition: font-size 0.3s ease;
+}
+
+section {
+    padding: 3rem 1rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#about img {
+    max-width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+#about img:hover {
+    transform: scale(1.1);
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills li {
+    background: #f4f4f4;
+    margin: 0.5rem;
+    padding: 0.75rem;
+    border-left: 4px solid #333;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#skills li:hover {
+    background: #ddd;
+    transform: scale(1.05);
+}
+
+#projects .project {
+    margin-bottom: 3rem;
+}
+
+#projects img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#projects img:hover {
+    transform: scale(1.05);
+}
+
+#resume a {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#resume a:hover {
+    background: #555;
+    transform: scale(1.05);
+}
+
+#contact p {
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    transition: background 0.3s ease;
+}
+
+footer p {
+    margin: 0;
+}
